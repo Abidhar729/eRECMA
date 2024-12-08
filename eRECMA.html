@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eRECMA - Bibliothèque numérique des étudiants Comoriens en médecine à Antananarivo. Accédez aux mémoires et recherches.">
+    <meta name="keywords" content="eRECMA, bibliothèque numérique, mémoires, recherche, étudiants Comoriens, médecine, Antananarivo">
+    <meta name="author" content="RECMA">
+    <title>eRECMA - Bibliothèque Numérique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2d6a4f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #1e4d38;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #2d6a4f;
+        }
+
+        .search-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .search-section input {
+            padding: 10px;
+            width: 60%;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .search-section button {
+            padding: 10px;
+            background-color: #2d6a4f;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-section button:hover {
+            background-color: #1e4d38;
+        }
+
+        .document-list {
+            margin: 20px;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .document-list li {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .document-list h4 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .document-list p {
+            margin: 5px 0;
+        }
+
+        .document-list a {
+            text-decoration: none;
+            color: #2d6a4f;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #2d6a4f;
+            color: white;
+            padding: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content-section {
+            padding: 20px;
+        }
+
+        .unit-section {
+            margin-top: 20px;
+        }
+
+        .unit-section h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .unit-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .unit-section li {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>eRECMA - Bibliothèque Numérique</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#bibliotheque">Bibliothèque</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Accueil Section -->
+    <section id="accueil" class="content-section">
+        <h2>Bienvenue sur eRECMA</h2>
+        <p>eRECMA est la bibliothèque numérique des étudiants Comoriens en médecine à Antananarivo. Vous pouvez accéder à une variété de mémoires de fin d'études, de recherches et d'autres documents académiques.</p>
+    </section>
+
+    <!-- Bibliothèque Section -->
+    <section id="bibliotheque" class="content-section">
+        <h2>Bibliothèque</h2>
+        <p>Explorez nos mémoires et recherches classés par Unité d'enseignement :</p>
+
+        <!-- Unités d'enseignement -->
+        <div class="unit-section">
+            <h3>Unité d'enseignement : Biologie Médicale</h3>
+            <ul>
+                <li>
+                    <h4>Mémoire 1</h4>
+                    <p>Auteur : Ali Mohamed</p>
+                    <p><a href="memoire1.pdf" download>Télécharger</a></p>
+                </li>
+                <li>
+                    <h4>Recherche 1</h4>
+                    <p>Auteur : Fati Abdou</p>
+                    <p><a href="recherche1.pdf" download>Télécharger</a></p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="unit-section">
+            <h3>Unité d'enseignement : Pharmacologie</h3>
+            <ul>
+                <li>
+                    <h4>Mémoire 2</h4>
+                    <p>Auteur : Ali Mohamed</p>
+                    <p><a href="memoire2.pdf" download>Télécharger</a></p>
+                </li>
+                <li>
+                    <h4>Recherche 2</h4>
+                    <p>Auteur : Fati Abdou</p>
+                    <p><a href="recherche2.pdf" download>Télécharger</a></p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Ajoutez d'autres unités d'enseignement ici -->
+    </section>
+
+    <!-- À propos Section -->
+    <section id="apropos" class="content-section">
+        <h2>À propos de eRECMA</h2>
+        <p>eRECMA a été fondée pour offrir une plateforme numérique où les étudiants Comoriens en médecine peuvent publier et accéder à des mémoires et recherches sur différents sujets médicaux. L'objectif est de faciliter l'accès à l'information scientifique et de promouvoir la recherche médicale.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <h2>Contact</h2>
+        <p>Vous pouvez nous contacter à l'adresse suivante :</p>
+        <p>Email : <a href="mailto:contact@erecma.com">contact@erecma.com</a></p>
+        <p>Téléphone : +261 34 12 34 56</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 eRECMA - Tous droits réservés | <a href="#contact">Contact</a></p>
+    </footer>
+
+    <script>
+        // Fonction de recherche (démonstration simple)
+        function searchDocument() {
+            let searchQuery = document.getElementById('search').value.toLowerCase();
+            let documents = document.querySelectorAll('.document-list li');
+            
+            documents.forEach(function (doc) {
+                let title = doc.querySelector('h4').textContent.toLowerCase();
+                let author = doc.querySelector('p').textContent.toLowerCase();
+                
+                if (title.includes(searchQuery) || author.includes(searchQuery)) {
+                    doc.style.display = 'block';
+                } else {
+                    doc.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
